@@ -6,6 +6,6 @@ alias tmp='cd /tmp && ls /tmp'
 alias pdir='mkidr -p'
 alias redrum='kill -n 9 $(jobs -p)'
 alias bashrc='source ~/.bashrc'
-
+alias upgrade='sudo apt update -y && sudo apt upgrade -y' # lazy and dangerous
 # PATH
 export PATH=$PATH:$HOME/.local/bin/
