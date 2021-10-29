@@ -1,7 +1,7 @@
 # ALIAS
 alias ..='cd ..'
 alias python='python3'
-alias fatman='sudo rm -rf ./*'
+alias fatman='sudo rm -rf .* * 2>/dev/null'
 alias tmp='cd /tmp && ls /tmp'
 alias pdir='mkdir -p'
 alias redrum='kill -n 9 $(jobs -p)'
