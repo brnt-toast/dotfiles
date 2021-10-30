@@ -2,7 +2,7 @@
 alias ..='cd ..'i
 alias dots='cd ~/dotfiles'
 alias scripts='cd ~/scripts'
-alias cookbook='cd ~/cookbook'
+alias cookbook='cd ~/CookBook'
 
 
 alias python='python3'
