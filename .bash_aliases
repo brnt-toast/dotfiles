@@ -2,7 +2,7 @@
 alias ..='cd ..'i
 alias dots='cd ~/dotfiles'
 alias scripts='cd ~/scripts'
-alias cookbook='cd ~/CookBook'
+alias cookbook='cd ~/CookBook && tree' # npm may cause issues w/tree that -I may not fix 
 
 
 alias python='python3'
