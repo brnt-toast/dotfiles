@@ -2,6 +2,7 @@
 alias ..='cd ..'i
 alias dots='cd ~/dotfiles'
 alias scripts='cd ~/scripts'
+alias cookbook='cd ~/cookbook'
 
 
 alias python='python3'
@@ -9,7 +10,7 @@ alias pip='pip3'
 
 
 alias status='git status'
-
+alias grestore='git restore --staged'
 
 alias fatman='sudo rm -rf .* * 2>/dev/null'
 alias redrum='kill -n 9 $(jobs -p)'
