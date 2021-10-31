@@ -1,5 +1,5 @@
 # ALIAS
-alias ..='cd ..'i
+alias ..='cd ..'
 alias dots='cd ~/dotfiles'
 alias scripts='cd ~/scripts'
 alias cookbook='cd ~/CookBook && tree' # npm may cause issues w/tree that -I may not fix 
