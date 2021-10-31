@@ -11,6 +11,8 @@ alias pip='pip3'
 
 alias status='git status'
 alias grestore='git restore --staged'
+alias push="git push"
+
 
 alias fatman='sudo rm -rf .* * 2>/dev/null'
 alias redrum='kill -n 9 $(jobs -p)'
