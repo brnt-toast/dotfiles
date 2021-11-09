@@ -1,3 +1,9 @@
 colorscheme murphy
 
-syntax on 
+syntax on
+
+set number
+
+set shiftwidth=4
+set autoindent
+ 
