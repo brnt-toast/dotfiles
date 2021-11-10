@@ -17,6 +17,7 @@ alias pip='pip3'
 alias status='git status'
 alias grestore='git restore --staged'
 alias push="git push"
+alias gclone="git clone"
 # -- END -- GIT
 
 # -- START -- CLEANERS
