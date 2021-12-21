@@ -1,6 +1,7 @@
 # ALIAS
 
 # --START-- DIRECTORY TRAVERSAL
+alias ll ='ls -la'
 alias ..='cd ..'
 alias dots='cd ~/dotfiles && ls -la ~/dotfiles'
 alias scripts='cd ~/scripts && ls -la ~/scripts'
@@ -36,6 +37,7 @@ alias upgrade='sudo apt update -y && sudo apt upgrade -y' # lazy and dangerous
 alias updoot='cp .bash_aliases $HOME && bashrc' # only works if in dotfiles/ -- should be a script
 # -- END -- MAINTENANCE
 
+export TERM=xterm-256color
 
 # PATH
 export PATH=$PATH:$HOME/.local/bin/
