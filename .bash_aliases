@@ -29,6 +29,7 @@ alias redrum='kill -n 9 $(jobs -p)'
 # -- START -- HELPERS | MISC.
 alias tmp='cd /tmp && ls /tmp'
 alias pdir='mkdir -p'
+alias ssh='ssh -xC'
 # -- END -- HELPERS | MISC.
 
 # -- START -- MAINTENANCE
