@@ -15,9 +15,9 @@ alias pip='pip3'
 # -- END -- PYTHON
 
 # -- START -- GIT
-alias status='git status'
+alias gstatus='git status'
 alias grestore='git restore --staged'
-alias push="git push"
+alias gpush="git push"
 alias gclone="git clone"
 # -- END -- GIT
 
