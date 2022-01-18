@@ -19,6 +19,7 @@ alias gstatus='git status'
 alias grestore='git restore --staged'
 alias gpush="git push"
 alias gclone="git clone"
+alias gadd='git add .'
 # -- END -- GIT
 
 # -- START -- CLEANERS
