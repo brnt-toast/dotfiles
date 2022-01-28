@@ -2,6 +2,7 @@
 
 # --START-- DIRECTORY TRAVERSAL
 alias ll='ls -la'
+alias ls='ls -la --color'
 alias ..='cd ..'
 alias dots='cd ~/dotfiles && ls -la ~/dotfiles'
 alias scripts='cd ~/scripts && ls -la ~/scripts'
@@ -31,15 +32,16 @@ alias redrum='kill -n 9 $(jobs -p)'
 alias tmp='cd /tmp && ls /tmp'
 alias pdir='mkdir -p'
 alias ssh='ssh -xC'
+export TERM=xterm-256color
 # -- END -- HELPERS | MISC.
 
 # -- START -- MAINTENANCE
 alias bashrc='source ~/.bashrc'
 alias upgrade='sudo apt update -y && sudo apt upgrade -y' # lazy and dangerous
-alias updoot='cp .bash_aliases $HOME && bashrc' # only works if in dotfiles/ -- should be a script
+alias updoot='cp .bash_aliases $HOME && bashrc' # only works if in dotfiles -- should be a script
 # -- END -- MAINTENANCE
 
-export TERM=xterm-256color
+===
 
 # PATH
 export PATH=$PATH:$HOME/.local/bin/
