@@ -4,9 +4,9 @@
 alias ll='ls -la'
 alias ls='ls -la --color'
 alias ..='cd ..'
-alias dots='cd ~/dotfiles && ls -la ~/dotfiles'
-alias scripts='cd ~/scripts && ls -la ~/scripts'
-alias cookbook='cd ~/CookBook && tree' # npm may cause issues w/tree that -I may not fix 
+alias dots='cd ~/dotfiles'
+alias scripts='cd ~/scripts'
+alias cookbook='cd ~/CookBook' 
 alias boilerplate='cd ~/boilerplates'
 # -- END -- DIRECTORY TRAVESAL
 
