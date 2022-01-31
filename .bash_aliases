@@ -41,7 +41,7 @@ alias upgrade='sudo apt update -y && sudo apt upgrade -y' # lazy and dangerous
 alias updoot='cp .bash_aliases $HOME && bashrc' # only works if in dotfiles -- should be a script
 # -- END -- MAINTENANCE
 
-===
+#===
 
 # PATH
 export PATH=$PATH:$HOME/.local/bin/
