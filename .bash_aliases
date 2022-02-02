@@ -1,8 +1,8 @@
 # ALIAS
 
 # --START-- DIRECTORY TRAVERSAL
+alias ls='ls  --color'
 alias ll='ls -la'
-alias ls='ls -la --color'
 alias ..='cd ..'
 alias dots='cd ~/dotfiles'
 alias scripts='cd ~/scripts'
