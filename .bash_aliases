@@ -4,6 +4,8 @@
 alias ls='ls  --color'
 alias ll='ls -la'
 alias ..='cd ..'
+alias 2..='cd ../..'
+alias 3..='cd ../../../'
 alias dots='cd ~/dotfiles'
 alias scripts='cd ~/scripts'
 alias cookbook='cd ~/CookBook' 
