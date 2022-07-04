@@ -1,5 +1,3 @@
-colorscheme murphy
-
 syntax on
 
 set number
@@ -9,3 +7,5 @@ set tabstop=2
 set autoindent
 
 set backspace=indent,eol,start
+
+colorscheme murphy
