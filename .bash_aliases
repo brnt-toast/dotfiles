@@ -34,6 +34,7 @@ alias redrum='kill -n 9 $(jobs -p)'
 alias tmp='cd /tmp && ls /tmp'
 alias pdir='mkdir -p'
 alias ssh='ssh -xC'
+alias note='touch $(date +%m-%d-%y).md'
 export TERM=xterm-256color
 # -- END -- HELPERS | MISC.
 
