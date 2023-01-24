@@ -8,4 +8,12 @@ set autoindent
 
 set backspace=indent,eol,start
 
-colorscheme murphy
+call plug#begin()
+
+Plug 'morhetz/gruvbox'
+Plug 'sheerun/vim-polyglot'
+
+call plug#end()
+
+colorscheme gruvbox
+set bg=dark
