@@ -36,6 +36,7 @@ alias pdir='mkdir -p'
 alias ssh='ssh -xC'
 alias note='touch $(date +%m-%d-%y).md'
 alias dnote='mkdir $(date +%m-%d-%y)'
+alias readme='touch README.md'
 export TERM=xterm-256color
 # -- END -- HELPERS | MISC.
 
