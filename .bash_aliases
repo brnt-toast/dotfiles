@@ -37,6 +37,8 @@ alias ssh='ssh -xC'
 alias note='touch $(date +%m-%d-%y).md'
 alias dnote='mkdir $(date +%m-%d-%y)'
 alias readme='touch README.md'
+alias bs='mkdir /tmp/bull.shit 2>/dev/null; cd /tmp/bull.shit'
+# --
 export TERM=xterm-256color
 # -- END -- HELPERS | MISC.
 
