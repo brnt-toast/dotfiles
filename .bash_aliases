@@ -41,6 +41,7 @@ export TERM=xterm-256color
 # -- END -- HELPERS | MISC.
 
 # -- START -- MAINTENANCE
+alias fix-screens='xrandr --output DP-5 --mode 1920x1080 && xrandr --output DP-5 --mode 2560x1440 -r 165'
 alias bashrc='source ~/.bashrc'
 alias upgrade='sudo apt update -y && sudo apt upgrade -y' # lazy and dangerous
 alias updoot='cp .bash_aliases $HOME && bashrc' # only works if in dotfiles -- should be a script
